@@ -17,17 +17,17 @@ body {
 
 .container {
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(237, 236, 226, 0.1);
     border-radius: 8px;
     overflow: hidden;
 }
 
 /* Sidebar Styles */
 .sidebar {
-    background-color: #333;
-    color: #fff;
+    background-color: #AD102A;
+    color: #EDECE2;
     width: 200px;
     padding: 20px;
 }
