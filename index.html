@@ -3,66 +3,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Scott's Portfolio</title>
 
-	  <!-- Link to the CSS files -->
-		<link rel="stylesheet" href="variables.css">
-		<link rel="stylesheet" href="styles.css">
-    
+    <!-- Link to the CSS files -->
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="container">
         <aside class="sidebar">
-            <h2>Mark J. Scott</h2>
+            <h2>Mark J Scott</h2>
             <ul>
-				<li><a href="#contact">Publications</a></li>
-                <li><a href="#projects">Research</a></li>
-				<li><a href="#SeniorDesign">Senior Design</a></li>
+                <li><a href="#Publication">Publications</a></li>
+                <li><a href="#Research">Research</a></li>
+                <li><a href="#SeniorDesign">Senior Design</a></li>
                 <li><a href="#Teaching">Teaching</a></li>
-                
             </ul>
         </aside>
         <main class="content">
-			<section id="AboutMe">
-				<h1>About Me </h1>
-				I teach Electrical Engineering at Miami University in Oxford, OH.
-			</section>
+            <section id="AboutMe">
+                <h1>About Me</h1>
+                <p>I teach Electrical Engineering at Miami University in Oxford, OH.</p>
+            </section>
             <section id="Teaching">
-                <h1>Teaching:</h1>
-					<h2>
-					<li>ECE 301 - Advanced Circuits </li>
-					<li>ECE 304 - Electronics</li>
-					<li>ECE 493 - Power Electronics</li>
-					<li>ECE 497 - Electric Vehicle Technology</li>
-					</h2>
+                <h1>Teaching</h1>
+                <ul>
+                    <li>ECE 301 - Advanced Circuits</li>
+                    <li>ECE 304 - Electronics</li>
+                    <li>ECE 493 - Power Electronics</li>
+                    <li>ECE 497 - Electric Vehicle Technology</li>
+                </ul>
             </section>
             <section id="SeniorDesign">
                 <h1>Senior Design Projects</h1>
                 <div class="project">
                     <h2>Virtual Twins for DC/DC Conversion</h2>
-						<p>A project to determine the health of a dc-link capacitor in a buck converter.</p>
+                    <p>A project to determine the health of a dc-link capacitor in a buck converter.</p>
                 </div>
                 <div class="project">
                     <h2>Electric Vehicle Club</h2>
-						<p>A project to start an electric vehicle racing team at Miami University.</p>
+                    <p>A project to start an electric vehicle racing team at Miami University.</p>
                 </div>
             </section>
-			<section id="Research">
-				<h1>Research</h1>
-					<li>DC/DC Converters</li>
-					<li>Reliability and Health Management</li>										
-			</section>
-			<section id="Publication">
-				<h1>Publications</h1>
-			</section>
-			<section id="">
-			</section>
-			
+            <section id="Research">
+                <h1>Research</h1>
+                <ul>
+                    <li>DC/DC Converters</li>
+                    <li>Reliability and Health Management</li>
+                </ul>
+            </section>
+            <section id="Publication">
+                <h1>Publications</h1>
+                <div id="publications-content"></div>
+            </section>
             <section id="contact">
                 <h1>Contact</h1>
-                <p>Feel free to reach out via email at: <a></a></p>
+                <p>Feel free to reach out via email at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
             </section>
         </main>
     </div>
+
+    <script src="fetch.js"></script>
 </body>
 
 </html>
