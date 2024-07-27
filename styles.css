@@ -11,29 +11,41 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f9;
+    /*background-color: #f4f4f9;*/
+	background-color: var(--med-tan);
     color: #333;
 }
 
 .container {
     display: flex;
-    max-width: 100%;
-    width: 100%;
+    max-width: 90%;
+    width: 90%;
     box-shadow: 0 4px 8px rgba(237, 236, 226, 0.1);
-    border-radius: 8px;
+    border-radius: 10px;
+	border-color: med-tan;
+	border-width: 15	px;
     overflow: hidden;
 }
 
 /* Sidebar Styles */
 .sidebar {
-    background-color: #AD102A;
-    color: #EDECE2;
-    width: 200px;
+    background-color: var(--accent-red);
+	/*background-color: #AD102A;
+	border-radius: 15px;*/
+	border-color: #EFDB72;
+	border-width: 10px;
+    color: #FAF9F7;
+    width: 220px;
     padding: 20px;
+	font-family: Georgia, serif;
+	
+	  border: 2px solid var(--accent-red);
+	  border-top-left-radius: 25px;
 }
 
 .sidebar h2 {
     margin-bottom: 20px;
+	font-family: Georgia, serif;
 }
 
 .sidebar ul {
@@ -58,15 +70,24 @@ body {
     padding: 20px;
     background-color: #fff;
     flex: 1;
+	font-family: Arial, sans-serif;
 }
 
-.content h1 {
+.content h1,
+.content h2,
+.content h3{
     margin-bottom: 10px;
     color: #333;
+	font-family: Georgia, serif;
+}
+
+.content h2{
+	font-size: 18px;
 }
 
 .content p {
     margin-bottom: 20px;
+	font-family: Arial, sans-serif;
 }
 
 .project {

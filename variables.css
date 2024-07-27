@@ -1,0 +1,14 @@
+/* variables.css */
+
+:root {
+  /* Custom Colors */
+  --primary-red: #c14230;
+  --accent-red: #ad102a;
+  --light-tan: #edece2;
+  --med-tan: #ccc9b8;
+  --dark-tan: #70685c;
+
+  /* Font Families */
+  --font-title: 'FreightText Pro Book', serif;
+  --font-content: 'Gotham', sans-serif;
+}
