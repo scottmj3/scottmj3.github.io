@@ -21,38 +21,34 @@ body {
     max-width: 90%;
     width: 90%;
     box-shadow: 0 4px 8px rgba(237, 236, 226, 0.1);
-    border-radius: 10px;
+	border-radius: 10px;
 	border-color: med-tan;
-	border-width: 15	px;
+	border-width: 15px;
     overflow: hidden;
 }
 
 /* Sidebar Styles */
 .sidebar {
-    background-color: var(--accent-red);
-	/*background-color: #AD102A;
-	border-radius: 15px;*/
+	background-color: var(--accent-red);
 	border-color: #EFDB72;
 	border-width: 10px;
-    color: #FAF9F7;
-    width: 220px;
-    padding: 20px;
-	font-family: Georgia, serif;
-	
-	  border: 2px solid var(--accent-red);
-	  border-top-left-radius: 25px;
-	  border-bottom-left-radius: 25px;
-	  
+	color: #FAF9F7;
+	width: 220px;
+	padding: 20px;
+	font-family: Georgia, serif;	
+	border: 2px solid var(--accent-red);
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;	  
 }
 
 .sidebar h2 {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 	font-family: Georgia, serif;
 }
 
 .sidebar ul {
-    list-style: none;
-	margin-left: 10px;
+	list-style: none;
+	margin-left: 12px;
 }
 
 .sidebar li {
