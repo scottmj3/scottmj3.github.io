@@ -9,10 +9,10 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    /*background-color: #f4f4f9;*/
-	background-color: var(--med-tan);
+    align-items: flex-start; /* let content start at the top */
+    min-height: 100vh;       /* allow expansion if content exceeds the viewport */
+    height: auto;
+    background-color: var(--med-tan);
     color: #333;
 }
 
